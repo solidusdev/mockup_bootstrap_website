@@ -1,0 +1,256 @@
+.vertical-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    color: white;
+}
+
+.vertical-main-text {
+    position: absolute;
+    top: 14%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    color: white;
+}
+
+.vertical-subhead-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    color: white;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+.thin {
+    font-weight: 200;
+}
+
+.sub-head {
+    font-size: 2rem;
+}
+
+.sub-head {
+    font-size: 2rem;
+}
+
+.carousel h1 {
+    font-weight: 200;
+}
+
+.carousel h2 {
+    font-weight: 200;
+}
+
+.image-1 {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23)), url(./background_images/forest.jpeg);
+}
+
+.image-2 {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.34), rgba(0, 0, 0, 0.34)), url(./background_images/nyc.jpeg);
+}
+
+.image-3 {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.34), rgba(0, 0, 0, 0.34)), url(./background_images/palm_trees.jpeg);
+}
+
+.jumbotron {
+    margin-bottom: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.34), rgba(0, 0, 0, 0.34)), url(./background_images/street.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 23rem;;
+}
+
+.header {
+    font-size: 5rem;
+}
+
+.sub-header {
+    font-size: 2rem;
+    margin-left: 0.6rem;
+}
+
+section.clients {
+    margin-top: 4rem;
+}
+
+.mt-custom {
+    margin-top: 4.5rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.description {
+    width: 90%;
+    line-height: 2.1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section h1 {
+    font-size: 3em;
+    background: -webkit-linear-gradient(to top, #eaafc8, #654ea3);
+    background: linear-gradient(to top, #eaafc8, #654ea3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bg-bootstrap {
+    background: -webkit-linear-gradient(to left, #eaafc8, #654ea3);
+    background: linear-gradient(to left, #eaafc8, #654ea3);
+}
+
+.margin9 {
+    margin-top: 9rem !important;
+}
+
+.row .col img {
+    max-width: 490px;
+    margin-top: 2rem;
+}
+
+.col-lg-2 {
+    flex: 25%;
+    max-width: 25% ;
+}
+
+.client-logos img {
+    padding: 2rem 0rem;
+}
+
+@media (max-width: 575.98px) {
+
+    .jumbotron h1 {
+        line-height: 1;
+        font-size: 4rem;
+        width: 80%;
+    }
+
+    .jumbotron h2 {
+        margin-top: 2rem;
+        width: 80%;
+    }
+
+    .display-2{
+        font-size: 3.7rem;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .subhead {
+        font-size: 2rem;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .lead {
+        margin-top: 2rem !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .vertical-text {
+        position: absolute;
+        top: 23%;
+        left: 50%;
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        text-align: center;
+        color: white;
+    }
+
+    .description {
+        width: 100%;
+        text-align: center;
+        line-height: 2.1;
+        margin-left: auto;
+        margin-right: auto;
+        display: initial;
+    }
+
+    .row .col img {
+        display: initial;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;;
+        clear: both !important;
+        margin-top: 3rem;
+    }
+
+    .row {
+        display: initial;
+        text-align: center;
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;;
+    }
+
+    .col-lg-2 {
+        flex: 100% !important;
+        max-width: 100%;
+    }
+
+    section.clients {
+        margin-top: 1.5rem;
+    }
+
+    body > main > section.why-choose-us > div.container.mt-4 > div > div:nth-child(1) > img {
+        margin-top: -0.1rem !important;
+        padding-bottom: 3rem;
+    }
+
+    body > main > footer > div.container.text-center.text-md-left > div > div.col-md-3.col-lg-2.col-xl-2.mx-auto.mb-4 > h6 {
+        margin-top: 3.5rem;
+    }
+
+    body > main > footer > div.container.text-center.text-md-left > div > div.col-md-4.col-lg-3.col-xl-3.mx-auto.mb-md-0.mb-4 > h6 {
+        margin-top: 3.5rem;
+    }
+}
